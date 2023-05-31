@@ -1,7 +1,7 @@
 pipeline {
     agent any
     stages {
-        stage('Test Maven') {
+        stage('Test Docker') {
             agent {
                 label 'springboot-docker-agent'
             }
