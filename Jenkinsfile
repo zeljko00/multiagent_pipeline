@@ -23,12 +23,12 @@ pipeline {
                      sh 'mvn --version'
                     }
           }
-          stage('Test  Dockerfile') {
-                agent {  dockerfile true }
-                 steps {  
-                     sh 'mvn --version'
-                    }
-          }
+//           stage('Test  Dockerfile') {
+//                 agent {  dockerfile true }
+//                  steps {  
+//                      sh 'mvn --version'
+//                     }
+//           }
 
     }
 }
